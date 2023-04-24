@@ -26,6 +26,6 @@ jobs:
         cd praticando/src
         javac -cp . Main.java
     - name: Rodando o Programa
-      run:
+      run: |
         cd praticando/src
-        javac Main.java
+        javac -cp . Main
