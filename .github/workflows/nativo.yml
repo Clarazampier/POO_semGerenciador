@@ -23,5 +23,5 @@ jobs:
         distribution: 'temurin'
     - name: Compilando no JAVA
       run: |
-        cd src
+        cd praticando/src
         javac -cp . Main.java
