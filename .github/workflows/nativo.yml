@@ -28,4 +28,4 @@ jobs:
     - name: Rodando o Programa
       run:
         cd praticando/src
-        java -cp . Main
+        javac Main.java
